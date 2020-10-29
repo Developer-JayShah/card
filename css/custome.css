@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-container{
+                  width:700px;
+                  height: 1009  px;
+                  background: #fff;
+                  border-radius: 6px;
+                  position: absolute;
+                  top: 47%;
+                  left: 50%;
+                  transform: translate(-50%,-50%);
+                  box-shadow: 0px 1px 10px 1px #000;
+}
+
+.upper-container img{
+    width: 100%;
+    height: 250px;
+    /* background-image: url(/images/banner.jpg); */
+    background-repeat: no-repeat;
+    background-position: 0px -15px;
+    background-size: 100%;
+}
+.image-container{
+                 
+                   width: 80px;
+                   height: 80px;
+                   border-radius: 50%;
+                   /* border: 1px solid black; */
+                   padding: 5px;
+                   transform: translate(262px,-52px);
+
+}
+.image-container img{
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+}
+.middle-container{
+    height: 280px;
+   
+    padding-top: 20px;
+    margin-top: -78px;
+/* text-align: center; */
+}
+
+.middle-container .i2{
+     float: right;
+     
+     font-size: 20px;
+     margin-top: -90px;
+}
+.middle-container .i1{
+   
+    font-size: 20px;
+
+}
+.middle-container h2,p{
+    text-align: center;
+
+}
+.middle-container h2{
+    font-size: 30px;
+
+}
+.middle-container p{
+    margin-top: -20px;
+    color: rgba(128, 128, 128, 0.788);
+}
+.middle-container button 
+{
+    font-size: 26px;
+    margin-left: 2px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.596);
+    outline: none;
+    padding: 25px;
+    text-align: center;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    margin-top: 8px;
+
+}
+.middle-container button i{
+    color: purple;
+    margin-right: 18px;
+    /* margin-top: 10px; */
+
+}
+.lower-container .row1
+{
+  width: calc(100% / 2);
+  float: left;
+  
+  font-size: 37px;
+text-align: center;
+  padding-bottom: 5px;
+}
+.lower-container .row2{
+                          color: #7499C6;   
+                          border-bottom: 5px solid #7499C6;
+                          
+}
+
+.inform
+{
+    
+    margin-left: 15px;
+    font-size: 25px;
+    padding-top: 10%;
+    margin-top: 25px;
+}
+.inform i{
+    float: left;
+    padding-right: 15px;
+    color: purple;
+}
+.inform p{
+    margin-top: -5px;
+    text-align: left;
+}
+
+
+/* footer{
+    
+    padding-top: 35px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.11);
+    padding-left: 25px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.116);
+}
+footer i,h3{
+    padding-left: 15px;
+   
+    font-size: 19px;
+  
+}
+footer i{
+    text-align: center;
+    
+} */
+.footer1{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.11);
+    margin-top: 15px;
+    border-radius: 50px;
+    /* padding-right: 56px; */
+    background-color: rgba(128, 128, 128, 0.116);
+
+}
+.footer1 .fimg
+{
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+    float: left;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 6px;
+
+}
+.footer1 span{
+    margin-left: 1px;
+    /* margin-top: 31px; */
+    padding-top: 37px;
+}
+.footer1 .fas{
+    font-weight: 900;
+}
+.footer1 h3{
+    margin-left: -30px;
+    padding-left: 27px;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.footer1 .fimg1{
+    width: 50px;
+    height: 30px;
+    padding-top: 6px;
+    float: left;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-top: 5px;
+    padding-left: 15px;
+    /* padding-right: 15px; */
+}
+.footer1 .fimg1 i{
+    padding-left: 25px;
+    /* text-align: center; */
+}
+.footer1 .fimg1 .sp {
+       padding-left: 25px;
+}
+.footer1 .fimg1 .sp1 {
+    padding-left: 50px;
+}
+.footer1 .fimg1 .sp1 i{
+    padding-left: 15px;
+}
+.footer1 .fimg1 .sp2 {
+    padding-left: 55px;
+}
+.footer1 .fimg1 .sp2 h3{
+    padding-right: 50px;
+}
